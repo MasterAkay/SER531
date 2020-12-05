@@ -58,12 +58,12 @@ The above commands will start the Angular application on http://localhost:4200/
 Installing And Setting Up the Web API.
 
 
-Browse to the "WebAPI" folder in a seperate terminal instance
+Browse to the "WebAPI" folder in a separate terminal instance
 ```
 python3 API.py
 ```
 
-Now that we have both the API and Web App running in seperate instances of the terminal enter the query in the webapp to get the result.
+Now that we have both the API and Web App running in separate instances of the terminal enter the query in the web-app to get the result.
 
 
 ## Database Required 
