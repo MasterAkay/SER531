@@ -1,0 +1,122 @@
+
+<div style="height: 100%">
+
+  <div class="container contain-custom-main">
+
+    <div class="d-flex flex-row">
+
+      <div class="d-flex flex-column">
+
+    <label>
+    <h4>Query</h4>
+    <input type="text" value="Enter Query" [(ngModel)]="key" />
+  </label>
+<br>
+  <label>
+    <h4>Template Question Id</h4>
+    <input type="text" value="Enter Template" [(ngModel)]="templateQuestionId" />
+  </label>
+  <br>
+
+  <button class="btn btn-info" (click)="functionOnClickGo()" formtarget="_blank">GO</button>
+        <br>
+        <h4>Result:</h4>
+        <h5>{{queryResultToDisplay}}</h5>
+        <br>
+        <br>
+
+      </div>
+
+      <div class="filler">
+
+      </div>
+
+
+      <div class="d-flex flex-column">
+
+        <div class="width-adjust">
+        <table class="table table-condensed">
+          <thead>
+          <tr>
+
+            <th scope="col">Question Type</th>
+            <th scope="col">Example Question</th>
+            <th scope="col">Template Question ID</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Single Fact</td>
+            <td>Who is the screenwriter of Mr. Bean?</td>
+            <td>11</td>
+
+          </tr>
+          <tr>
+            <td>Single fact with type</td>
+            <td>Billie Jean was on the tracklist of which studio album?</td>
+            <td>1</td>
+
+          </tr>
+          <tr>
+            <td>Multi-fact</td>
+            <td>What is the name of the sister city tied to Kansas City, which is located in the county of Seville Province?</td>
+            <td>0,9</td>
+
+          </tr>
+          <tr>
+            <td>Fact with qualifiers</td>
+            <td>What is the venue of Barack Obama’s marriage ?</td>
+            <td>7</td>
+
+          </tr>
+          <tr>
+            <td>Two intention</td>
+            <td>When and where did Barack Obama get married to Michelle Obama?</td>
+            <td>1</td>
+
+          </tr>
+          <tr>
+            <td>Boolean</td>
+            <td>Did Breaking Bad have 5 seasons?</td>
+            <td>8</td>
+
+          </tr>
+          <tr>
+            <td>Count</td>
+            <td>What is the number of Siblings of Edward III of England ?</td>
+            <td>2,3</td>
+
+          </tr>
+          <tr>
+            <td>Ranking</td>
+            <td>what is the binary star which has the highest color index?</td>
+            <td>4,5</td>
+
+          </tr>
+          <tr>
+            <td>String Operation</td>
+            <td>Give me all the Rock bands that starts with letter R ?</td>
+            <td>10</td>
+
+          </tr>
+          <tr>
+            <td>Temporal aspect</td>
+            <td>With whom did Barack Obama get married in 1992 ?</td>
+            <td>6</td>
+
+
+          </tr>
+          </tbody>
+        </table>
+        </div>
+
+
+
+
+      </div>
+
+</div>
+
+  </div>
+
+</div>

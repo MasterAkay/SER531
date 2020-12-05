@@ -1,0 +1,30 @@
+.contain-custom-main {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: inherit;
+}
+
+
+.table-condensed{
+  font-size: 10px;
+  margin-right: 30px;
+}
+
+.width-adjust {
+  width: 700px;
+  margin: auto;
+  padding-left: 50px;
+padding-top: 20px;
+}
+
+
+.filler {
+  flex-grow: 1;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
