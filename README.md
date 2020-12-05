@@ -4,14 +4,19 @@ Template-based Question Answering analysis on the LCQuAD2.0 Dataset
 ## Team 17
 
 Akshay Kumar Dileep
+
 Anurag Mishra
+
 Ria Mehta
+
 Siddharth Uppal
 
 ## Prerequisites for Setup
 
 Python3
+
 Nodejs
+
 Npm
 
 Python3 Packages - 
@@ -33,8 +38,6 @@ nltk
 ```
 
 ## Installation
-
-For using the Web Application.
 
 Clone the applicaiton. 
 
